@@ -1,4 +1,5 @@
 site_name: Zleed Documentation
+site_url: https://docs.zleed.tv
 
 repo_url: https://github.com/ZleedApp/Documentation
 repo_name: ZleedApp/Documentation
@@ -33,8 +34,10 @@ extra:
 
 plugins:
   - search
-  - social
   - offline
+  - social:
+      cards_layout_options:
+        background_color: '#0F172A'
   - git-revision-date-localized:
       enable_creation_date: true
 
