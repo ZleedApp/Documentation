@@ -1,4 +1,42 @@
 site_name: Zleed Documentation
 
+repo_url: https://github.com/ZleedApp/Documentation
+repo_name: ZleedApp/Documentation
+
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2023 Zleed
+
 theme:
   name: material
+  font:
+    text: Outfit
+    code: Fira Code
+  logo: assets/logo.svg
+  favicon: favicon.ico
+  features:
+    - content.action.edit
+    - content.action.view
+  icon:
+    edit: material/pencil 
+    view: material/eye
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ZleedApp
+      name: GitHub
+    - icon: fontawesome/brands/discord 
+      link: https://github.com/ZleedApp
+      name: Discord
+
+plugins:
+  - search
+  - social
+  - offline
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+extra_css:
+  - stylesheets/extra.css
