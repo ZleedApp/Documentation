@@ -8,6 +8,16 @@ edit_uri: edit/main/docs/
 
 copyright: Copyright &copy; 2023 Zleed
 
+nav:
+  - Home: index.md
+  - Streaming:
+    - streaming/index.md
+  - Knowledge Base:
+    - knowledge-base/index.md
+    - FAQ: knowledge-base/faq.md
+  - API:
+    - api/index.md
+
 theme:
   name: material
   font:
@@ -18,6 +28,11 @@ theme:
   features:
     - content.action.edit
     - content.action.view
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
   icon:
     edit: material/pencil 
     view: material/eye
@@ -28,8 +43,11 @@ extra:
     - icon: fontawesome/brands/github 
       link: https://github.com/ZleedApp
       name: GitHub
+    - icon: fontawesome/brands/mastodon 
+      link: https://tba
+      name: Discord
     - icon: fontawesome/brands/discord 
-      link: https://github.com/ZleedApp
+      link: https://tba
       name: Discord
 
 plugins:
@@ -40,6 +58,9 @@ plugins:
         background_color: '#0F172A'
   - git-revision-date-localized:
       enable_creation_date: true
+  - git-committers:
+      repository: ZleedApp/Documentation
+      branch: main
 
 markdown_extensions:
   - pymdownx.highlight:
