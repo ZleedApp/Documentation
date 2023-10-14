@@ -2,4 +2,16 @@
   --md-primary-fg-color:        #6366F1;
   --md-primary-fg-color--light: #E0E7FF;
   --md-primary-fg-color--dark:  #0F172A;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #6366F1;
+  --md-primary-fg-color--light: #E0E7FF;
+  --md-primary-fg-color--dark:  #0F172A;
+}  
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #6366F1;
+  --md-primary-fg-color--light: #E0E7FF;
+  --md-primary-fg-color--dark:  #0F172A;
 }  

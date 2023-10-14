@@ -39,10 +39,22 @@ theme:
     - navigation.tabs
     - navigation.path
     - navigation.indexes
+    - content.code.copy
+    - search.highlight
+    - search.suggest
   icon:
     edit: material/pencil 
     view: material/eye
     repo: fontawesome/brands/github
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
 
 extra:
   social:
@@ -70,7 +82,6 @@ extra:
 
 plugins:
   - search
-  - offline
   - social:
       cards_layout_options:
         background_color: '#0F172A'
@@ -78,8 +89,24 @@ plugins:
       enable_creation_date: true
 
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji 
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
