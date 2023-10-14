@@ -45,9 +45,9 @@ extra:
       name: GitHub
     - icon: fontawesome/brands/mastodon 
       link: https://tba
-      name: Discord
+      name: Mastodon
     - icon: fontawesome/brands/discord 
-      link: https://tba
+      link: https://discord.gg/gaezTFyTV2
       name: Discord
 
 plugins:
