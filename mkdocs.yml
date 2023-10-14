@@ -25,7 +25,7 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: docs/overrides
   font:
     text: Outfit
     code: Fira Code
@@ -87,6 +87,7 @@ plugins:
         background_color: '#0F172A'
   - git-revision-date-localized:
       enable_creation_date: true
+      type: datetime
 
 markdown_extensions:
   - abbr
