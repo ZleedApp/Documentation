@@ -44,17 +44,17 @@ theme:
     - search.highlight
     - search.suggest
   icon:
-    edit: material/pencil 
-    view: material/eye
+    edit: material/note-edit-outline 
+    view: material/note-search-outline
     repo: fontawesome/brands/github
   palette:
     - scheme: default
       toggle:
-        icon: material/weather-night 
+        icon: material/track-light-off 
         name: Switch to Dark Mode
     - scheme: slate
       toggle:
-        icon: material/weather-sunny
+        icon: material/track-light
         name: Switch to Light Mode
 
 extra:
