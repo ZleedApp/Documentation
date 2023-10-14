@@ -1,5 +1,6 @@
 site_name: Zleed Documentation
 site_url: https://docs.zleed.tv
+site_description: Zleed is a free and open-source streaming platform.
 
 repo_url: https://github.com/ZleedApp/Documentation
 repo_name: ZleedApp/Documentation
