@@ -84,7 +84,8 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: '#0F172A'
+        color: '#E0E7FF'
+        background_color: '#6366F1'
   - git-revision-date-localized:
       enable_creation_date: true
       type: datetime
