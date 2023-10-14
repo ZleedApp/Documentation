@@ -25,6 +25,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Outfit
     code: Fira Code
@@ -54,6 +55,18 @@ extra:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/gaezTFyTV2
       name: Discord
+  consent:
+    title: Cookie consent
+    description: >- 
+      This site uses Matomo to analyze traffic and help us to improve your user experience.
+      We process your email address and IP address and cookies are stored on your browser for 13 months. 
+      This data is only processed by us and our web hosting platform. 
+      Please read our Privacy Policy to learn more. 
+    cookies:
+      analytics: Matomo
+  analytics:
+    provider: custom
+    property: 9
 
 plugins:
   - search
@@ -73,3 +86,6 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/consent.js
