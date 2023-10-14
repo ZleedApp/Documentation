@@ -1,6 +1,7 @@
 # API
 
-Main API URL: `https://api.zleed.tv/v{version_major}/`
+- Main API URL: `https://api.zleed.tv/v1/`
+- OpenApi Spec (Swagger): `https://api.zleed.tv/v1/swagger.json`
 
 ## Changelogs
 

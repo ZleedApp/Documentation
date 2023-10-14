@@ -10,13 +10,18 @@ copyright: Copyright &copy; 2023 Zleed
 
 nav:
   - Home: index.md
-  - Streaming:
-    - streaming/index.md
   - Knowledge Base:
     - knowledge-base/index.md
     - FAQ: knowledge-base/faq.md
+    - Streaming: knowledge-base/streaming.md
+    - Discord Bot:
+      - knowledge-base/discord-bot/index.md
+      - Commands: knowledge-base/discord-bot/commands.md
   - API:
     - api/index.md
+    - Auth:
+      - Register: api/auth/register.md
+      - Login: api/auth/login.md
 
 theme:
   name: material
