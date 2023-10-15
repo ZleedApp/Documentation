@@ -1,0 +1,35 @@
+{% import "partials/language.html" as lang with context %}
+
+<!-- taken from 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
+
+<hr class="md-divider">
+
+<div class="md-source-file">
+<small style="display: flex; align-items: start; justify-content: center; flex-direction: column; gap: 16px;">
+    <!-- mkdocs-git-revision-date-localized-plugin -->
+    {% if page.meta.git_revision_date_localized %}
+      <div style="display: flex; align-items: center; justify-content: start; flex-direction: row; gap: 8px;">
+        <span class="md-icon" title="Last update">
+          {% include ".icons/material/timer-edit-outline.svg" %}
+        </span>
+  
+        {{ page.meta.git_revision_date_localized }}
+      </div>
+    {% if page.meta.git_creation_date_localized %}
+      <div style="display: flex; align-items: center; justify-content: start; flex-direction: row; gap: 8px;">
+        <span class="md-icon" title="Last update">
+          {% include ".icons/material/timer-plus-outline.svg" %}
+        </span>
+
+        {{ page.meta.git_creation_date_localized }}
+      </div>
+    {% endif %}
+
+    <!-- mkdocs-git-revision-date-plugin -->
+    {% elif page.meta.revision_date %}
+      {{ lang.t("source.file.date.updated") }}:
+      {{ page.meta.revision_date }}
+    {% endif %}
+</small>
+</div>
