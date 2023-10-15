@@ -30,23 +30,26 @@ theme:
   font:
     text: Outfit
     code: Fira Code
-  logo: assets/logo.svg
   favicon: favicon.ico
+  icon: 
+    logo: material/file-document-outline
+    repo: material/github
+    edit: material/note-edit-outline 
+    view: material/note-search-outline
   features:
     - content.action.edit
     - content.action.view
     - navigation.instant
     - navigation.instant.progress
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.path
     - navigation.indexes
+    - navigation.tracking
+    - navigation.top
     - content.code.copy
     - search.highlight
     - search.suggest
-  icon:
-    edit: material/note-edit-outline 
-    view: material/note-search-outline
-    repo: fontawesome/brands/github
   palette:
     - scheme: default
       toggle:
