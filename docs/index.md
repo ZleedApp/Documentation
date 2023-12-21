@@ -4,4 +4,4 @@ description: Welcome to the documentation.
 
 # Home
 
-Welcome to the documentation.
+Welcome to the documentation & Blog.

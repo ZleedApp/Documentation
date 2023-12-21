@@ -11,6 +11,8 @@ copyright: Copyright &copy; 2023 Zleed
 
 nav:
   - Home: index.md
+  - Blog:
+    - blog/index.md
   - Knowledge Base:
     - knowledge-base/index.md
     - FAQ: knowledge-base/faq.md
@@ -86,6 +88,7 @@ extra:
 
 plugins:
   - search
+  - blog
   - social:
       cards_layout_options:
         color: '#E0E7FF'
