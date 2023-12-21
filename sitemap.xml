@@ -2,47 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.zleed.tv/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/api/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/api/auth/login/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/api/auth/register/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.zleed.tv/blog/</loc>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.zleed.tv/blog/2023/12/21/release-roadmap/</loc>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/knowledge-base/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/knowledge-base/faq/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/knowledge-base/streaming/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/knowledge-base/discord-bot/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.zleed.tv/knowledge-base/discord-bot/commands/</loc>
-         <lastmod>2023-10-15</lastmod>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.zleed.tv/blog/archive/2023/</loc>
+         <lastmod>2023-12-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.zleed.tv/blog/category/roadmaps/</loc>
+         <lastmod>2023-12-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
