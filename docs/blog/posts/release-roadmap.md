@@ -8,7 +8,7 @@ date: 2023-12-21
 
 # Release Roadmap
 
-Welcome to our current roadman to the first stable release.
+Welcome to our current roadmap to the first stable release.
 
 <!-- more -->
 
