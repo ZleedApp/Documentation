@@ -30,14 +30,15 @@ theme:
   name: material
   custom_dir: docs/overrides
   font:
-    text: Outfit
+    text: Rethink Sans
     code: Fira Code
   favicon: favicon.ico
   icon: 
-    logo: material/file-document-outline
-    repo: material/github
-    edit: material/note-edit-outline 
-    view: material/note-search-outline
+    logo: lucide/book-text
+    repo: lucide/github
+    edit: lucide/file-edit 
+    view: lucide/file-search
+    search: lucide/search
   features:
     - content.action.edit
     - content.action.view
@@ -55,11 +56,11 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/track-light-off 
+        icon: lucide/moon 
         name: Switch to Dark Mode
     - scheme: slate
       toggle:
-        icon: material/track-light
+        icon: lucide/sun
         name: Switch to Light Mode
 
 extra:
@@ -88,14 +89,20 @@ extra:
 
 plugins:
   - search
-  - blog
-  - social:
-      cards_layout_options:
-        color: '#E0E7FF'
-        background_color: '#6366F1'
+  - blog:
+      post_date_format: long
+      post_url_date_format: yyyy
+# - social:
+#     cards_layout_options:
+#       color: '#E0E7FF'
+#       background_color: '#6366F1'
+#       logo: assets/logo.png
   - git-revision-date-localized:
       enable_creation_date: true
-      type: datetime
+      type: timeago
+  - git-committers:
+      repository: ZleedApp/Documentation
+      branch: main
 
 markdown_extensions:
   - abbr

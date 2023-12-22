@@ -32,4 +32,9 @@
 
   --md-footer-bg-color--dark: #111827;
   --md-footer-bg-color:       #111827;
-}  
+}
+
+.md-icon svg, .md-header__button.md-logo img, .md-header__button.md-logo svg {
+  fill: none;
+  outline: currentColor;
+}

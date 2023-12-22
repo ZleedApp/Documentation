@@ -3,15 +3,13 @@
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 
-<hr class="md-divider">
-
-<div class="md-source-file">
-<small style="display: flex; align-items: start; justify-content: center; flex-direction: column; gap: 16px;">
+<div class="md-source-file" style="margin-top: 2em; display: flex; align-items: center; justify-content: space-between; flex-direction: row;">
+  <small style="display: flex; align-items: start; justify-content: start; flex-direction: row; gap: 16px;">
     <!-- mkdocs-git-revision-date-localized-plugin -->
     {% if page.meta.git_revision_date_localized %}
       <div style="display: flex; align-items: center; justify-content: start; flex-direction: row; gap: 8px;">
         <span class="md-icon" title="Last update">
-          {% include ".icons/material/timer-edit-outline.svg" %}
+          {% include ".icons/lucide/calendar-clock.svg" %}
         </span>
   
         {{ page.meta.git_revision_date_localized }}
@@ -19,7 +17,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
     {% if page.meta.git_creation_date_localized %}
       <div style="display: flex; align-items: center; justify-content: start; flex-direction: row; gap: 8px;">
         <span class="md-icon" title="Last update">
-          {% include ".icons/material/timer-plus-outline.svg" %}
+          {% include ".icons/lucide/calendar-plus.svg" %}
         </span>
 
         {{ page.meta.git_creation_date_localized }}
@@ -31,5 +29,17 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
       {{ lang.t("source.file.date.updated") }}:
       {{ page.meta.revision_date }}
     {% endif %}
-</small>
+  </small>
+
+  <small class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+    <ul style="display: flex; list-style: none; gap: 8px; margin: 0; padding: 0;">
+      {%- for user in committers -%}
+        <li style="margin: 0; padding: 0;">
+          <a style="display: flex; border-radius: 50%; overflow: hidden;" href="{{ user.url }}" title="{{ user.name }}" data-bi-name="contributorprofile" target="_blank">
+            <img src="{{ user.avatar }}" alt="{{ user.name }}" height="32" width="32">
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </small>
 </div>
